@@ -1,0 +1,18 @@
+{
+  "name": "Chrome KGet",
+  "version": "0.0.1",
+  "description": "KGet integration for Chrome.",
+  "manifest_version": 2,
+  "icons": {
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "permissions": [
+    "<all_urls>",
+    "webRequest",
+    "webRequestBlocking"
+  ]
+}
